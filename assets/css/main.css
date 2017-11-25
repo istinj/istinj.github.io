@@ -2090,12 +2090,17 @@
 				border-radius: 100%;
 				width: 100%;
 			}
-			.heightSet {
+
+			.maxWidthSet {
 				max-width: 100%;
 				height: auto;
     		/*max-height: 350px;*/
 			}
 
+			.maxHeightSet {
+				max-width: 100%;
+				height: auto;
+			}
 /* List */
 
 	ol {

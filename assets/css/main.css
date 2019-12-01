@@ -2491,7 +2491,8 @@
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								fixed;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		/* background-image: url("images/overlay.png"), url("../../images/bg.jpg"); */
+    background-image: linear-gradient(to right bottom, #198f93, #1e7d89, #276a7b, #2d596b, #2f4858);
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								auto 100%;
@@ -2960,7 +2961,8 @@
 			#footer {
 				background-attachment: scroll;
 				background-color: #1f1815;
-				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+				/* background-image: url("images/overlay.png"), url("../../images/bg.jpg"); */
+        background-image: linear-gradient(to right bottom, #198f93, #1e7d89, #276a7b, #2d596b, #2f4858);
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;

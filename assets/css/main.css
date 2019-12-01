@@ -2465,7 +2465,7 @@
 		}
 
 		.work-item p {
-			font-size: 0.8em;
+			font-size: 1.0em;
 			line-height: 1.5em;
 			margin: 0;
 		}
@@ -2538,7 +2538,7 @@
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 6.25em;
+			width: 12.25em;
 		}
 
 /* Footer */
@@ -3135,3 +3135,17 @@
 			}
 
 	}
+
+  .map-responsive{
+      overflow:hidden;
+      padding-bottom:56.25%;
+      position:relative;
+      height:0;
+  }
+  .map-responsive iframe{
+      left:0;
+      top:0;
+      height:100%;
+      width:100%;
+      position:absolute;
+  }

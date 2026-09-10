@@ -1,167 +1,327 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Irvin Aloise | Robotics & Computer Science</title>
-  <meta name="description" content="Personal website and portfolio of Irvin Aloise - Ph.D. Researcher in Engineering in Computer Science focusing on Mobile Robotics, SLAM, and Graph Optimization." />
-  <link rel="icon" href="images/dark_side.png" />
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <script src="assets/js/theme.js"></script>
-  <script src="assets/js/carousel.js" defer></script>
-</head>
-<body>
-
-  <!-- Top Sticky Navigation -->
-  <nav class="site-nav" aria-label="Main Navigation">
-    <div class="container">
-      <a href="#top" class="nav-brand">Irvin Aloise</a>
-      <div class="nav-menu">
-        <a href="#experience" class="nav-link">Experience</a>
-        <a href="#education" class="nav-link">Education</a>
-        <a href="#research" class="nav-link">Research</a>
-        <a href="#teaching" class="nav-link">Teaching</a>
-        <a href="#photography" class="nav-link">Photography</a>
-        <a href="#contact" class="nav-link">Contact</a>
-      </div>
-      <div class="nav-actions">
-        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle theme" title="Toggle dark/light theme">
-          <!-- Moon Icon (displayed in light mode) -->
-          <svg class="icon-moon" viewBox="0 0 24 24">
-            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-          </svg>
-          <!-- Sun Icon (displayed in dark mode) -->
-          <svg class="icon-sun" viewBox="0 0 24 24">
-            <circle cx="12" cy="12" r="5"></circle>
-            <line x1="12" y1="1" x2="12" y2="3"></line>
-            <line x1="12" y1="21" x2="12" y2="23"></line>
-            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-            <line x1="1" y1="12" x2="3" y2="12"></line>
-            <line x1="21" y1="12" x2="23" y2="12"></line>
-            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-          </svg>
-        </button>
-      </div>
-    </div>
-  </nav>
-
-  <div id="top"></div>
-
-  <!-- Hero Section -->
-  <header class="hero-section">
-    <div class="container">
-      <div class="hero-profile">
-        <div class="avatar-wrapper">
-          <img src="images/me_squared.jpg" alt="Irvin Aloise" class="avatar-img" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Irvin Aloise | Robotics & Computer Science</title>
+    <meta
+      name="description"
+      content="Personal website and portfolio of Irvin Aloise - Ph.D. Researcher in Engineering in Computer Science focusing on Mobile Robotics, SLAM, and Graph Optimization."
+    />
+    <link rel="icon" href="images/dark_side.png" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="assets/js/theme.js"></script>
+    <script src="assets/js/carousel.js" defer></script>
+  </head>
+  <body>
+    <!-- Top Sticky Navigation -->
+    <nav class="site-nav" aria-label="Main Navigation">
+      <div class="container">
+        <a href="#top" class="nav-brand">Irvin Aloise</a>
+        <div class="nav-menu">
+          <a href="#experience" class="nav-link">Experience</a>
+          <a href="#education" class="nav-link">Education</a>
+          <a href="#research" class="nav-link">Research</a>
+          <a href="#teaching" class="nav-link">Teaching</a>
+          <a href="#photography" class="nav-link">Photography</a>
+          <a href="#contact" class="nav-link">Contact</a>
         </div>
-        <div class="hero-content">
-          <h1>Irvin Aloise</h1>
-          <div class="subtitle">Ph.D. in Engineering in Computer Science · Robotics & SLAM</div>
-          <p class="bio">
-            Ph.D. candidate in Engineering in Computer Science at Sapienza University of Rome.
-            My work focuses on <strong>Mobile Robotics</strong>, <strong>Simultaneous Localization and Mapping (SLAM)</strong>,
-            <strong>Point-Cloud Registration</strong>, and <strong>Graph Optimization</strong>. I like tech and 🤖.
-          </p>
-          <div class="social-links">
-            <a href="media/cv_aloise.pdf" target="_blank" class="social-btn primary" title="Download CV">
-              <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
-              <span>Resume / CV</span>
-            </a>
-            <a href="https://www.linkedin.com/in/irvin-aloise-428278133/" target="_blank" rel="noopener noreferrer" class="social-btn">
-              <svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
-              <span>LinkedIn</span>
-            </a>
-            <a href="https://github.com/istinj" target="_blank" rel="noopener noreferrer" class="social-btn">
-              <svg viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"></path></svg>
-              <span>GitHub</span>
-            </a>
-            <a href="https://scholar.google.com/citations?user=uNL0JhkAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener noreferrer" class="social-btn">
-              <svg viewBox="0 0 24 24"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5 12 0z"></path></svg>
-              <span>Scholar</span>
-            </a>
-            <a href="https://orcid.org/0000-0002-6382-4168" target="_blank" rel="noopener noreferrer" class="social-btn">
-              <svg viewBox="0 0 24 24"><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.525 0 .947.431.947.947s-.422.947-.947.947a.95.95 0 0 1-.947-.947c0-.525.422-.947.947-.947zm-.722 3.038h1.444v10.041H6.647V7.416zm3.562 0h3.9c3.712 0 5.344 2.653 5.344 5.025 0 2.578-2.016 5.016-5.325 5.016h-3.919V7.416zm1.444 1.306v7.428h2.338c2.166 0 3.712-1.306 3.712-3.713 0-2.231-1.509-3.715-3.694-3.715h-2.356z"></path></svg>
-              <span>ORCID</span>
-            </a>
+        <div class="nav-actions">
+          <button
+            id="theme-toggle"
+            class="theme-toggle-btn"
+            aria-label="Toggle theme"
+            title="Toggle dark/light theme"
+          >
+            <!-- Moon Icon (displayed in light mode) -->
+            <svg class="icon-moon" viewBox="0 0 24 24">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+            <!-- Sun Icon (displayed in dark mode) -->
+            <svg class="icon-sun" viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <div id="top"></div>
+
+    <!-- Hero Section -->
+    <header class="hero-section">
+      <div class="container">
+        <div class="hero-profile">
+          <div class="avatar-wrapper">
+            <img
+              src="images/me_squared.jpg"
+              alt="Irvin Aloise"
+              class="avatar-img"
+            />
+          </div>
+          <div class="hero-content">
+            <h1>Irvin Aloise</h1>
+            <div class="subtitle">Computer Vision for AR and Robots</div>
+            <p class="bio">
+              Computer vision engineer at Magic Leap. I like tech and 🤖.
+            </p>
+            <div class="social-links">
+              <a
+                href="media/cv_aloise.pdf"
+                target="_blank"
+                class="social-btn primary"
+                title="Download CV"
+              >
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"
+                  ></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                  <polyline points="10 9 9 9 8 9"></polyline>
+                </svg>
+                <span>Resume / CV</span>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/irvin-aloise-428278133/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-btn"
+              >
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                  ></path>
+                  <rect x="2" y="9" width="4" height="12"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+                <span>LinkedIn</span>
+              </a>
+              <a
+                href="https://github.com/istinj"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-btn"
+              >
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"
+                  ></path>
+                </svg>
+                <span>GitHub</span>
+              </a>
+              <a
+                href="https://scholar.google.com/citations?user=LR9qWYoAAAAJ&hl=it&oi=ao"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-btn"
+              >
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5 12 0z"
+                  ></path>
+                </svg>
+                <span>Scholar</span>
+              </a>
+              <a
+                href="https://orcid.org/0000-0002-6382-4168"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-btn"
+              >
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.525 0 .947.431.947.947s-.422.947-.947.947a.95.95 0 0 1-.947-.947c0-.525.422-.947.947-.947zm-.722 3.038h1.444v10.041H6.647V7.416zm3.562 0h3.9c3.712 0 5.344 2.653 5.344 5.025 0 2.578-2.016 5.016-5.325 5.016h-3.919V7.416zm1.444 1.306v7.428h2.338c2.166 0 3.712-1.306 3.712-3.713 0-2.231-1.509-3.715-3.694-3.715h-2.356z"
+                  ></path>
+                </svg>
+                <span>ORCID</span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </header>
+    </header>
 
-  <main>
-    <!-- Experience Section -->
-    <section id="experience" class="section">
-      <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">Work Experience</h2>
-        </div>
-        <div class="timeline">
-
-          <!-- Experience Item: Sapienza Ph.D. -->
-          <article class="card">
-            <div class="card-header">
-              <div class="card-title-group">
-                <h3>Ph.D. Researcher in Computer Science</h3>
-                <div class="card-subtitle">
-                  <a href="http://labrococo.dis.uniroma1.it/" target="_blank" rel="noopener noreferrer">Sapienza University of Rome — Ro.Co.Co. Lab</a>
+    <main>
+      <!-- Experience Section -->
+      <section id="experience" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Work Experience</h2>
+          </div>
+          <div class="timeline">
+            <!-- Experience Item: Sapienza Ph.D. -->
+            <article class="card">
+              <div class="card-header">
+                <div class="card-title-group">
+                  <h3>Computer Vision Engineer</h3>
+                  <div class="card-subtitle">
+                    <a
+                      href="https://www.magicleap.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Magic Leap</a
+                    >
+                  </div>
+                </div>
+                <span class="card-date">Nov. 2020 – Present</span>
+              </div>
+              <div class="card-body">
+                <p>
+                  I am part of the Mapping and Localization team, designing and
+                  developing state-of-the-art computer vision algorithms for
+                  head tracking, and shipping them into products.
+                </p>
+                <ul class="card-bullets">
+                  <li>
+                    Architected, developed, productionized, and shipped to
+                    customers a state-of-the-art large-scale mapping and
+                    localization pipeline to enable massive multi-user
+                    experiences and content persistence with ML2 devices.
+                  </li>
+                  <li>
+                    Technical leadership of the project, including mentoring and
+                    coaching of several junior-to-senior engineers. Cross-team
+                    engineering coordination and multi-functional collaboration
+                    with different stakeholders.
+                  </li>
+                  <li>
+                    Productization of complex vision algorithms to fit compute
+                    budgets and performance requirements of AR glasses' embedded
+                    systems, writing high-performance C++ code.
+                  </li>
+                  <li>
+                    Since 2024, collaborating with Google to develop and ship
+                    computer vision algorithms to millions of users via Android
+                    XR. Hands on work with several AR products (e.g. Samsung
+                    Galaxy XR), impacting the next generation of AR glasses.
+                  </li>
+                </ul>
+                <div class="tag-list">
+                  <span class="tag">Computer Vision</span>
+                  <span class="tag">Mapping</span>
+                  <span class="tag">Localization</span>
+                  <span class="tag">Embedded Systems</span>
+                  <span class="tag">Productization</span>
+                  <span class="tag">Leadership</span>
                 </div>
               </div>
-              <span class="card-date">Nov. 2017 – Oct. 2020</span>
-            </div>
-            <div class="card-body">
-              <p>
-                Conducted doctoral research within the Department of Computer, Control, and Management Engineering "Antonio Ruberti" (DIAG), under the supervision of
-                <a href="https://sites.google.com/dis.uniroma1.it/grisetti" target="_blank" rel="noopener noreferrer">Prof. Giorgio Grisetti</a>.
-              </p>
-              <ul class="card-bullets">
-                <li>Investigated advanced methodologies in Simultaneous Localization and Mapping (SLAM) and Graph Optimization.</li>
-                <li>Designed unified modular architectures for modular and plug-and-play SLAM solvers in C++.</li>
-                <li>Developed robust chordal-based error formulations and geometric primitive matchables for 3D Pose-Graph Optimization.</li>
-              </ul>
-              <div class="tag-list">
-                <span class="tag">C++</span>
-                <span class="tag">Mobile Robotics</span>
-                <span class="tag">SLAM</span>
-                <span class="tag">Graph Optimization</span>
-                <span class="tag">Linear Algebra</span>
-              </div>
-            </div>
-          </article>
+            </article>
 
-          <!-- Experience Item: Visiting Researcher Bonn -->
-          <article class="card">
-            <div class="card-header">
-              <div class="card-title-group">
-                <h3>Visiting Ph.D. Researcher</h3>
-                <div class="card-subtitle">
-                  <a href="http://www.ipb.uni-bonn.de/" target="_blank" rel="noopener noreferrer">University of Bonn — Photogrammetry and Robotics Lab</a>
+            <!-- Experience Item: Sapienza Ph.D. -->
+            <article class="card">
+              <div class="card-header">
+                <div class="card-title-group">
+                  <h3>Ph.D. Researcher in Computer Science</h3>
+                  <div class="card-subtitle">
+                    <a
+                      href="https://research.uniroma1.it/laboratorio/145174"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Sapienza University of Rome — Ro.Co.Co. Lab</a
+                    >
+                  </div>
+                </div>
+                <span class="card-date">Nov. 2017 – Oct. 2020</span>
+              </div>
+              <div class="card-body">
+                <p>
+                  Conducted doctoral research within the Department of Computer,
+                  Control, and Management Engineering "Antonio Ruberti" (DIAG),
+                  under the supervision of
+                  <a
+                    href="https://sites.google.com/dis.uniroma1.it/grisetti"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Prof. Giorgio Grisetti</a
+                  >.
+                </p>
+                <ul class="card-bullets">
+                  <li>
+                    Investigated advanced methodologies in Simultaneous
+                    Localization and Mapping (SLAM) and Graph Optimization.
+                  </li>
+                  <li>
+                    Designed unified modular architectures for modular and
+                    plug-and-play SLAM solvers in C++.
+                  </li>
+                  <li>
+                    Developed robust chordal-based error formulations and
+                    geometric primitive matchables for 3D Pose-Graph
+                    Optimization.
+                  </li>
+                </ul>
+                <div class="tag-list">
+                  <span class="tag">C++</span>
+                  <span class="tag">Mobile Robotics</span>
+                  <span class="tag">SLAM</span>
+                  <span class="tag">Graph Optimization</span>
+                  <span class="tag">Linear Algebra</span>
                 </div>
               </div>
-              <span class="card-date">Sep. 2019 – Feb. 2020</span>
-            </div>
-            <div class="card-body">
-              <p>
-                Conducted collaborative research with the Photogrammetry &amp; Robotics Lab at Rheinische Friedrich-Wilhelms-Universität Bonn, Germany.
-              </p>
-              <ul class="card-bullets">
-                <li>Researched 3D-LiDAR SLAM and high-precision sensor calibration techniques.</li>
-                <li>Implemented calibration algorithms for 3D-LiDAR and camera extrinsic parameter estimation.</li>
-                <li>Released open-source tooling for AprilTag-based multi-sensor calibration [<a href="https://github.com/srrg-sapienza/srrg2_apriltag_calibration" target="_blank" rel="noopener noreferrer">code repository</a>].</li>
-              </ul>
-              <div class="tag-list">
-                <span class="tag">3D LiDAR</span>
-                <span class="tag">Camera Calibration</span>
-                <span class="tag">Sensor Fusion</span>
-                <span class="tag">Computer Vision</span>
-                <span class="tag">C++</span>
-              </div>
-            </div>
-          </article>
+            </article>
 
-          <!-- TEMPLATE FOR ADDING NEW EXPERIENCES:
+            <!-- Experience Item: Visiting Researcher Bonn -->
+            <article class="card">
+              <div class="card-header">
+                <div class="card-title-group">
+                  <h3>Visiting Ph.D. Researcher</h3>
+                  <div class="card-subtitle">
+                    <a
+                      href="http://www.ipb.uni-bonn.de/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >University of Bonn — Photogrammetry and Robotics Lab</a
+                    >
+                  </div>
+                </div>
+                <span class="card-date">Sep. 2019 – Feb. 2020</span>
+              </div>
+              <div class="card-body">
+                <p>
+                  Conducted collaborative research with the Photogrammetry &amp;
+                  Robotics Lab at Rheinische Friedrich-Wilhelms-Universität
+                  Bonn, Germany.
+                </p>
+                <ul class="card-bullets">
+                  <li>
+                    Researched 3D-LiDAR SLAM and high-precision sensor
+                    calibration techniques.
+                  </li>
+                  <li>
+                    Implemented calibration algorithms for 3D-LiDAR and camera
+                    extrinsic parameter estimation.
+                  </li>
+                  <li>
+                    Released open-source tooling for AprilTag-based multi-sensor
+                    calibration [<a
+                      href="https://github.com/srrg-sapienza/srrg2_apriltag_calibration"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >code repository</a
+                    >].
+                  </li>
+                </ul>
+                <div class="tag-list">
+                  <span class="tag">3D LiDAR</span>
+                  <span class="tag">Camera Calibration</span>
+                  <span class="tag">Sensor Fusion</span>
+                  <span class="tag">Computer Vision</span>
+                  <span class="tag">C++</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- TEMPLATE FOR ADDING NEW EXPERIENCES:
           <article class="card">
             <div class="card-header">
               <div class="card-title-group">
@@ -182,311 +342,681 @@
               </div>
             </div>
           </article>
-          -->
-
+          --></div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Education Section -->
-    <section id="education" class="section">
-      <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">Education</h2>
-        </div>
-        <div class="timeline">
-
-          <article class="card">
-            <div class="card-header">
-              <div class="card-title-group">
-                <h3>Ph.D. in Engineering in Computer Science</h3>
-                <div class="card-subtitle">Sapienza University of Rome</div>
+      <!-- Education Section -->
+      <section id="education" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Education</h2>
+          </div>
+          <div class="timeline">
+            <article class="card">
+              <div class="card-header">
+                <div class="card-title-group">
+                  <h3>Ph.D. in Engineering in Computer Science</h3>
+                  <div class="card-subtitle">Sapienza University of Rome</div>
+                </div>
+                <span class="card-date">2017 – 2020</span>
               </div>
-              <span class="card-date">2017 – 2020</span>
-            </div>
-            <div class="card-body">
-              <p>
-                Department of Computer, Control, and Management Engineering "Antonio Ruberti".
-                Supervisor: Prof. Giorgio Grisetti. Research focus on mobile robotics, SLAM, point-cloud registration, and graph optimization.
-              </p>
-            </div>
-          </article>
-
-          <article class="card">
-            <div class="card-header">
-              <div class="card-title-group">
-                <h3>M.Sc. in Artificial Intelligence and Robotics</h3>
-                <div class="card-subtitle">Sapienza University of Rome</div>
+              <div class="card-body">
+                <p>
+                  Department of Computer, Control, and Management Engineering
+                  "Antonio Ruberti". Supervisor: Prof. Giorgio Grisetti.
+                  Research focus on mobile robotics, SLAM, point-cloud
+                  registration, and graph optimization.
+                </p>
               </div>
-              <span class="card-date">2014 – 2017</span>
-            </div>
-            <div class="card-body">
-              <p>
-                <strong>First Class with Honors (110/110 cum laude)</strong>. Program taught in English.
-                Master's thesis: <em>Pose-Graph Optimization</em> [<a href="media/thesis_colors_no_ringraziamenti.pdf" target="_blank">PDF</a>], supervised by Prof. Giorgio Grisetti.
-              </p>
-              <p>
-                Core coursework: Least-Squares SLAM, Vision and Perception, Artificial Intelligence, Mobile Robotics, Robotics, Interactive Graphics.
-              </p>
-            </div>
-          </article>
+            </article>
 
-          <article class="card">
-            <div class="card-header">
-              <div class="card-title-group">
-                <h3>B.Sc. in Electronic Engineering</h3>
-                <div class="card-subtitle">Sapienza University of Rome</div>
+            <article class="card">
+              <div class="card-header">
+                <div class="card-title-group">
+                  <h3>M.Sc. in Artificial Intelligence and Robotics</h3>
+                  <div class="card-subtitle">Sapienza University of Rome</div>
+                </div>
+                <span class="card-date">2014 – 2017</span>
               </div>
-              <span class="card-date">2010 – 2014</span>
-            </div>
-            <div class="card-body">
-              <p>
-                Undergraduate thesis addressed the stability of humanoid robots subject to external forces, supervised by Prof.
-                <a href="http://www.dis.uniroma1.it/~oriolo/" target="_blank" rel="noopener noreferrer">Giuseppe Oriolo</a>.
-              </p>
-            </div>
-          </article>
+              <div class="card-body">
+                <p>
+                  <strong>First Class with Honors (110/110 cum laude)</strong>.
+                  Program taught in English. Master's thesis:
+                  <em>Pose-Graph Optimization</em> [<a
+                    href="media/thesis_colors_no_ringraziamenti.pdf"
+                    target="_blank"
+                    >PDF</a
+                  >], supervised by Prof. Giorgio Grisetti.
+                </p>
+                <p>
+                  Core coursework: Least-Squares SLAM, Vision and Perception,
+                  Artificial Intelligence, Mobile Robotics, Robotics,
+                  Interactive Graphics.
+                </p>
+              </div>
+            </article>
 
+            <article class="card">
+              <div class="card-header">
+                <div class="card-title-group">
+                  <h3>B.Sc. in Electronic Engineering</h3>
+                  <div class="card-subtitle">Sapienza University of Rome</div>
+                </div>
+                <span class="card-date">2010 – 2014</span>
+              </div>
+              <div class="card-body">
+                <p>
+                  Undergraduate thesis addressed the stability of humanoid
+                  robots subject to external forces, supervised by Prof.
+                  <a
+                    href="https://www.diag.uniroma1.it/oriolo/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Giuseppe Oriolo</a
+                  >.
+                </p>
+              </div>
+            </article>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Research & Publications Section -->
-    <section id="research" class="section">
-      <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">Research &amp; Publications</h2>
+      <!-- Research & Publications Section -->
+      <section id="research" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Research &amp; Publications</h2>
+          </div>
+          <p class="section-desc">
+            My research investigates Simultaneous Localization and Mapping,
+            specifically focusing on
+            <strong>Factor Graph Optimization</strong>,
+            <strong>Multi-Sensor Calibration</strong>,
+            <strong>Multi-Sensor Fusion</strong>, and
+            <strong>State Estimation</strong>. A selection of my publications is
+            shown below.
+          </p>
+
+          <div class="publication-list">
+            <!-- Paper 0 -->
+            <article class="publication-item">
+              <h3 class="pub-title">
+                Visual place recognition using lidar intensity information
+              </h3>
+              <div class="pub-authors">
+                L. Di Giammarino, <strong>Irvin Aloise</strong>, C. Stachniss,
+                G. Grisetti
+              </div>
+              <div class="pub-venue">
+                IEEE International Conference on Intelligent Robots and Systems
+                (IROS), 2021
+              </div>
+              <div class="pub-actions">
+                <a
+                  href="https://arxiv.org/pdf/2103.09605"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="action-pill"
+                  >PDF</a
+                >
+              </div>
+            </article>
+
+            <!-- Paper 1 -->
+            <article class="publication-item">
+              <h3 class="pub-title">
+                Plug-and-Play SLAM: A Unified SLAM Architecture for Modularity
+                and Ease of Use
+              </h3>
+              <div class="pub-authors">
+                M. Colosi, <strong>I. Aloise</strong>, T. Guadagnino, D.
+                Schlegel, B. Della Corte, and G. Grisetti
+              </div>
+              <div class="pub-venue">
+                IEEE International Conference on Intelligent Robots and Systems
+                (IROS), 2020
+              </div>
+              <div class="pub-actions">
+                <a
+                  href="https://arxiv.org/pdf/2003.00754.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="action-pill"
+                  >PDF</a
+                >
+                <a
+                  href="https://github.com/srrg-sapienza/srrg2_slam_interfaces"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="action-pill"
+                  >Code</a
+                >
+              </div>
+            </article>
+
+            <!-- Paper 2 -->
+            <article class="publication-item">
+              <h3 class="pub-title">
+                Least Squares Optimization: From Theory to Practice
+              </h3>
+              <div class="pub-authors">
+                G. Grisetti, T. Guadagnino, <strong>I. Aloise</strong>, M.
+                Colosi, B. Della Corte, and D. Schlegel
+              </div>
+              <div class="pub-venue">MDPI: Robotics, 2020</div>
+              <div class="pub-actions">
+                <a
+                  href="https://www.mdpi.com/2218-6581/9/3/51"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="action-pill"
+                  >PDF</a
+                >
+                <a
+                  href="https://github.com/srrg-sapienza/srrg2_solver"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="action-pill"
+                  >Code</a
+                >
+                <a
+                  href="https://doi.org/10.3390/robotics9030051"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="action-pill"
+                  >DOI</a
+                >
+              </div>
+            </article>
+
+            <!-- Paper 3 -->
+            <article class="publication-item">
+              <h3 class="pub-title">
+                Chordal Based Error Function for 3D Pose-Graph Optimization
+              </h3>
+              <div class="pub-authors">
+                <strong>I. Aloise</strong> and G. Grisetti
+              </div>
+              <div class="pub-venue">
+                IEEE Robotics and Automation Letters (RA-L), 2019
+              </div>
+              <div class="pub-actions">
+                <a
+                  href="media/2019_paper_aloise_journal_chordal.pdf"
+                  target="_blank"
+                  class="action-pill"
+                  >PDF</a
+                >
+                <a
+                  href="https://srrg.gitlab.io/g2o_chordal_plugin.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="action-pill"
+                  >Code</a
+                >
+                <a
+                  href="https://doi.org/10.1109/LRA.2019.2956456"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="action-pill"
+                  >DOI</a
+                >
+                <a
+                  href="media/2019_paper_aloise_journal_chordal_supplementary_material.pdf"
+                  target="_blank"
+                  class="action-pill"
+                  >Supplementary</a
+                >
+              </div>
+            </article>
+
+            <!-- Paper 4 -->
+            <article class="publication-item">
+              <h3 class="pub-title">
+                Systematic Handling of Heterogeneous Geometric Primitives in
+                Graph-SLAM Optimization
+              </h3>
+              <div class="pub-authors">
+                <strong>I. Aloise</strong>, B. Della Corte, F. Nardi, and G.
+                Grisetti
+              </div>
+              <div class="pub-venue">
+                IEEE Robotics and Automation Letters (RA-L), 2019
+              </div>
+              <div class="pub-actions">
+                <a
+                  href="http://www.roboticsproceedings.org/rss15/p84.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="action-pill"
+                  >PDF</a
+                >
+                <a
+                  href="https://srrg.gitlab.io/sashago.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="action-pill"
+                  >Code</a
+                >
+                <a
+                  href="https://doi.org/10.1109/LRA.2019.2918054"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="action-pill"
+                  >DOI</a
+                >
+                <a
+                  href="media/2019_paper_aloise_ral_matchables_supplementary_material.pdf"
+                  target="_blank"
+                  class="action-pill"
+                  >Supplementary</a
+                >
+              </div>
+            </article>
+          </div>
         </div>
-        <p class="section-desc">
-          My research investigates Simultaneous Localization and Mapping, specifically focusing on
-          <strong>Global Optimization</strong>, <strong>Pose-Graph Optimization</strong>, <strong>Point-Cloud Registration</strong>,
-          and <strong>Sensor Calibration</strong>.
-        </p>
+      </section>
 
-        <div class="publication-list">
-
-          <!-- Paper 1 -->
-          <article class="publication-item">
-            <h3 class="pub-title">Plug-and-Play SLAM: A Unified SLAM Architecture for Modularity and Ease of Use</h3>
-            <div class="pub-authors">M. Colosi, <strong>I. Aloise</strong>, T. Guadagnino, D. Schlegel, B. Della Corte, and G. Grisetti</div>
-            <div class="pub-venue">IEEE International Conference on Intelligent Robots and Systems (IROS), 2020</div>
-            <div class="pub-actions">
-              <a href="https://arxiv.org/pdf/2003.00754.pdf" target="_blank" rel="noopener noreferrer" class="action-pill">PDF</a>
-              <a href="https://github.com/srrg-sapienza/srrg2_slam_interfaces" target="_blank" rel="noopener noreferrer" class="action-pill">Code</a>
-            </div>
-          </article>
-
-          <!-- Paper 2 -->
-          <article class="publication-item">
-            <h3 class="pub-title">Least Squares Optimization: From Theory to Practice</h3>
-            <div class="pub-authors">G. Grisetti, T. Guadagnino, <strong>I. Aloise</strong>, M. Colosi, B. Della Corte, and D. Schlegel</div>
-            <div class="pub-venue">MDPI: Robotics, 2020</div>
-            <div class="pub-actions">
-              <a href="https://www.mdpi.com/2218-6581/9/3/51" target="_blank" rel="noopener noreferrer" class="action-pill">PDF</a>
-              <a href="https://github.com/srrg-sapienza/srrg2_solver" target="_blank" rel="noopener noreferrer" class="action-pill">Code</a>
-              <a href="https://doi.org/10.3390/robotics9030051" target="_blank" rel="noopener noreferrer" class="action-pill">DOI</a>
-            </div>
-          </article>
-
-          <!-- Paper 3 -->
-          <article class="publication-item">
-            <h3 class="pub-title">Chordal Based Error Function for 3D Pose-Graph Optimization</h3>
-            <div class="pub-authors"><strong>I. Aloise</strong> and G. Grisetti</div>
-            <div class="pub-venue">IEEE Robotics and Automation Letters (RA-L), 2019</div>
-            <div class="pub-actions">
-              <a href="media/2019_paper_aloise_journal_chordal.pdf" target="_blank" class="action-pill">PDF</a>
-              <a href="https://srrg.gitlab.io/g2o_chordal_plugin.html" target="_blank" rel="noopener noreferrer" class="action-pill">Code</a>
-              <a href="https://doi.org/10.1109/LRA.2019.2956456" target="_blank" rel="noopener noreferrer" class="action-pill">DOI</a>
-              <a href="media/2019_paper_aloise_journal_chordal_supplementary_material.pdf" target="_blank" class="action-pill">Supplementary</a>
-            </div>
-          </article>
-
-          <!-- Paper 4 -->
-          <article class="publication-item">
-            <h3 class="pub-title">Systematic Handling of Heterogeneous Geometric Primitives in Graph-SLAM Optimization</h3>
-            <div class="pub-authors"><strong>I. Aloise</strong>, B. Della Corte, F. Nardi, and G. Grisetti</div>
-            <div class="pub-venue">IEEE Robotics and Automation Letters (RA-L), 2019</div>
-            <div class="pub-actions">
-              <a href="http://www.roboticsproceedings.org/rss15/p84.pdf" target="_blank" rel="noopener noreferrer" class="action-pill">PDF</a>
-              <a href="https://srrg.gitlab.io/sashago.html" target="_blank" rel="noopener noreferrer" class="action-pill">Code</a>
-              <a href="https://doi.org/10.1109/LRA.2019.2918054" target="_blank" rel="noopener noreferrer" class="action-pill">DOI</a>
-              <a href="media/2019_paper_aloise_ral_matchables_supplementary_material.pdf" target="_blank" class="action-pill">Supplementary</a>
-            </div>
-          </article>
-
+      <!-- Teaching Section -->
+      <section id="teaching" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Teaching</h2>
+          </div>
+          <ul class="teaching-list">
+            <li class="teaching-item">
+              <div class="teaching-role">
+                Teaching Assistant —
+                <a
+                  href="https://sites.google.com/diag.uniroma1.it/sistemi-operativi-2019-20/home"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Sistemi Operativi (Operating Systems)</a
+                >
+              </div>
+              <span class="teaching-year">2019 / 2020</span>
+            </li>
+            <li class="teaching-item">
+              <div class="teaching-role">
+                Teaching Assistant —
+                <a
+                  href="https://sites.google.com/diag.uniroma1.it/sistemi-operativi-1819/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Sistemi Operativi (Operating Systems)</a
+                >
+              </div>
+              <span class="teaching-year">2018 / 2019</span>
+            </li>
+            <li class="teaching-item">
+              <div class="teaching-role">
+                Teaching Assistant —
+                <a
+                  href="https://sites.google.com/dis.uniroma1.it/sistemi-operativi-201718/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Sistemi Operativi (Operating Systems)</a
+                >
+              </div>
+              <span class="teaching-year">2017 / 2018</span>
+            </li>
+          </ul>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Teaching Section -->
-    <section id="teaching" class="section">
-      <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">Teaching</h2>
-        </div>
-        <ul class="teaching-list">
-          <li class="teaching-item">
-            <div class="teaching-role">
-              Teaching Assistant — <a href="https://sites.google.com/diag.uniroma1.it/sistemi-operativi-2019-20/home" target="_blank" rel="noopener noreferrer">Sistemi Operativi (Operating Systems)</a>
+      <!-- Photography Section -->
+      <section
+        id="photography"
+        class="section"
+        tabindex="0"
+        aria-label="Photography Portfolio Carousel"
+      >
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Photography</h2>
+            <a
+              href="https://unsplash.com/it/@istin"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-btn"
+              title="Explore Unsplash profile"
+            >
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14.5v-9l6 4.5-6 4.5z"
+                  style="display: none"
+                ></path>
+                <rect
+                  x="3"
+                  y="3"
+                  width="18"
+                  height="18"
+                  rx="2"
+                  ry="2"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                ></rect>
+                <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                <polyline
+                  points="21 15 16 10 5 21"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                ></polyline>
+              </svg>
+              <span>Unsplash (@istin) ↗</span>
+            </a>
+          </div>
+          <p class="section-desc">
+            A selection of travel, alpine landscape, and street captures taken
+            with different cameras - analog and digital.
+          </p>
+
+          <!-- Carousel -->
+          <div class="carousel-container" aria-roledescription="carousel">
+            <div class="carousel-viewport">
+              <div class="carousel-track" id="carousel-track">
+                <!-- Slide 1 -->
+                <div
+                  class="carousel-slide"
+                  data-title="Woman walks on a pier towards mountains"
+                  data-url="https://unsplash.com/it/foto/donna-cammina-su-un-molo-verso-le-montagne-54i-1yJXjcQ"
+                >
+                  <img
+                    src="https://images.unsplash.com/photo-1767805447051-e94ffb10a8c5?auto=format&fit=crop&w=1200&q=80"
+                    alt="Woman walks on a pier towards mountains"
+                  />
+                </div>
+                <!-- Slide 2 -->
+                <div
+                  class="carousel-slide"
+                  data-title="Northern lights glowing above rolling hills"
+                  data-url="https://unsplash.com/it/foto/laurora-boreale-brilla-sopra-colline-sagomature-oz2QiBV-lKw"
+                >
+                  <img
+                    src="https://images.unsplash.com/photo-1765132875789-8761ba66d3e6?auto=format&fit=crop&w=1200&q=80"
+                    alt="Northern lights glowing above rolling hills"
+                    loading="lazy"
+                  />
+                </div>
+                <!-- Slide 3 -->
+                <div
+                  class="carousel-slide"
+                  data-title="Golden sunset over calm ocean and coastline"
+                  data-url="https://unsplash.com/it/foto/tramonto-dorato-su-un-oceano-calmo-e-una-costa-Z_L9vbyHN2k"
+                >
+                  <img
+                    src="https://images.unsplash.com/photo-1754671448143-8bd0bfb10bce?auto=format&fit=crop&w=1200&q=80"
+                    alt="Golden sunset over calm ocean and coastline"
+                    loading="lazy"
+                  />
+                </div>
+                <!-- Slide 4 -->
+                <div
+                  class="carousel-slide"
+                  data-title="Tent view of icy landscape with orange sleeping bag"
+                  data-url="https://unsplash.com/it/foto/vista-da-tenda-di-un-paesaggio-ghiacciato-con-sacco-a-pelo-arancione-aBqgfcyn06Y"
+                >
+                  <img
+                    src="https://images.unsplash.com/photo-1765132875547-9a126aa6e7c6?auto=format&fit=crop&w=1200&q=80"
+                    alt="Tent view of icy landscape with orange sleeping bag"
+                    loading="lazy"
+                  />
+                </div>
+                <!-- Slide 5 -->
+                <div
+                  class="carousel-slide"
+                  data-title="Cows grazing on alpine grassy slope"
+                  data-url="https://unsplash.com/it/foto/mucche-che-pascolano-sul-pendio-erboso-alpino-9iZjiUhXdq0"
+                >
+                  <img
+                    src="https://images.unsplash.com/photo-1786979837390-d49e274d1356?auto=format&fit=crop&w=1200&q=80"
+                    alt="Cows grazing on alpine grassy slope"
+                    loading="lazy"
+                  />
+                </div>
+                <!-- Slide 6 -->
+                <div
+                  class="carousel-slide"
+                  data-title="Smiling mural of blue and purple clouds"
+                  data-url="https://unsplash.com/it/foto/murale-sorridente-di-nuvole-blu-e-viola-jsDMZHDEcuA"
+                >
+                  <img
+                    src="https://images.unsplash.com/photo-1786311577319-aa1ea940729d?auto=format&fit=crop&w=1200&q=80"
+                    alt="Smiling mural of blue and purple clouds"
+                    loading="lazy"
+                  />
+                </div>
+                <!-- Slide 7 -->
+                <div
+                  class="carousel-slide"
+                  data-title="Stone bridge winding to rocky island (Gaztelugatxe)"
+                  data-url="https://unsplash.com/it/foto/ponte-di-pietra-su-rocky-island-aoVTkvwT-bo"
+                >
+                  <img
+                    src="https://images.unsplash.com/photo-1786311577583-bf448dbe75f3?auto=format&fit=crop&w=1200&q=80"
+                    alt="Stone bridge winding to rocky island (Gaztelugatxe)"
+                    loading="lazy"
+                  />
+                </div>
+                <!-- Slide 8 -->
+                <div
+                  class="carousel-slide"
+                  data-title="Motocross rider performing aerial trick"
+                  data-url="https://unsplash.com/it/foto/un-pilota-di-motocross-compie-una-brava-acrobazia-in-aria-XtZ-Im9Bl4w"
+                >
+                  <img
+                    src="https://images.unsplash.com/photo-1785772533208-94448e03fada?auto=format&fit=crop&w=1200&q=80"
+                    alt="Motocross rider performing aerial trick"
+                    loading="lazy"
+                  />
+                </div>
+                <!-- Slide 9 -->
+                <div
+                  class="carousel-slide"
+                  data-title="Cyclist with backpack in motion blur"
+                  data-url="https://unsplash.com/it/foto/persona-in-bicicletta-con-zaino-sfocato-di-movimento-65Gpxb5h2UI"
+                >
+                  <img
+                    src="https://images.unsplash.com/photo-1785771909145-ae71bf5be101?auto=format&fit=crop&w=1200&q=80"
+                    alt="Cyclist with backpack in motion blur"
+                    loading="lazy"
+                  />
+                </div>
+                <!-- Slide 10 -->
+                <div
+                  class="carousel-slide"
+                  data-title="Woman running past weathered building wall"
+                  data-url="https://unsplash.com/it/foto/donna-che-corre-davanti-a-un-muro-di-edificio-consumato-dal-tempo-h0FLp829hpI"
+                >
+                  <img
+                    src="https://images.unsplash.com/photo-1778326490254-751fe9ea1b9c?auto=format&fit=crop&w=1200&q=80"
+                    alt="Woman running past weathered building wall"
+                    loading="lazy"
+                  />
+                </div>
+                <!-- Slide 11 -->
+                <div
+                  class="carousel-slide"
+                  data-title="Colorful prayer flags with snowy mountain backdrop"
+                  data-url="https://unsplash.com/it/foto/bandiere-di-preghiera-colorate-con-sfondo-montuoso-innevato-ENpd27i0yRI"
+                >
+                  <img
+                    src="https://images.unsplash.com/photo-1776620544269-ae4070a7ca38?auto=format&fit=crop&w=1200&q=80"
+                    alt="Colorful prayer flags with snowy mountain backdrop"
+                    loading="lazy"
+                  />
+                </div>
+                <!-- Slide 12 -->
+                <div
+                  class="carousel-slide"
+                  data-title="Chairlift moving up snowy forested slope"
+                  data-url="https://unsplash.com/it/foto/seggiovia-che-si-muove-su-un-pendio-innevato-con-alberi-6G4X1GKDYRo"
+                >
+                  <img
+                    src="https://images.unsplash.com/photo-1773618769230-90b467b439fc?auto=format&fit=crop&w=1200&q=80"
+                    alt="Chairlift moving up snowy forested slope"
+                    loading="lazy"
+                  />
+                </div>
+                <!-- Slide 13 -->
+                <div
+                  class="carousel-slide"
+                  data-title="Mountain range covered in snow and ice"
+                  data-url="https://unsplash.com/it/foto/una-catena-montuosa-ricoperta-di-neve-e-ghiaccio-RsUOUOJq7Cc"
+                >
+                  <img
+                    src="https://images.unsplash.com/photo-1725909074048-0c7247fea73c?auto=format&fit=crop&w=1200&q=80"
+                    alt="Mountain range covered in snow and ice"
+                    loading="lazy"
+                  />
+                </div>
+                <!-- Slide 14 -->
+                <div
+                  class="carousel-slide"
+                  data-title="Night sky filled with stars above building"
+                  data-url="https://unsplash.com/it/foto/il-cielo-notturno-e-pieno-di-stelle-e-di-un-edificio-GX1RRrftzvs"
+                >
+                  <img
+                    src="https://images.unsplash.com/photo-1722534644204-aab8576a4d04?auto=format&fit=crop&w=1200&q=80"
+                    alt="Night sky filled with stars above building"
+                    loading="lazy"
+                  />
+                </div>
+                <!-- Slide 15 -->
+                <div
+                  class="carousel-slide"
+                  data-title="Wall of ceramic cups with Asian calligraphy"
+                  data-url="https://unsplash.com/it/foto/un-muro-pieno-di-tazze-con-scritte-asiatiche-su-di-esse-rQ3qXzQ21hA"
+                >
+                  <img
+                    src="https://images.unsplash.com/photo-1722534644215-272556f6f5c8?auto=format&fit=crop&w=1200&q=80"
+                    alt="Wall of ceramic cups with Asian calligraphy"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+
+              <!-- Navigation Chevrons -->
+              <button
+                class="carousel-arrow prev"
+                id="carousel-prev"
+                aria-label="Previous photo"
+              >
+                <svg viewBox="0 0 24 24">
+                  <polyline points="15 18 9 12 15 6"></polyline>
+                </svg>
+              </button>
+              <button
+                class="carousel-arrow next"
+                id="carousel-next"
+                aria-label="Next photo"
+              >
+                <svg viewBox="0 0 24 24">
+                  <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+              </button>
             </div>
-            <span class="teaching-year">2019 / 2020</span>
+
+            <!-- Carousel Footer Bar -->
+            <div class="carousel-footer">
+              <div class="carousel-meta-row">
+                <span class="caption-title" id="caption-title"
+                  >Woman walks on a pier towards mountains</span
+                >
+                <span class="caption-counter" id="carousel-counter"
+                  >1 / 15</span
+                >
+              </div>
+              <div class="carousel-actions-row">
+                <div
+                  class="carousel-dots"
+                  id="carousel-dots"
+                  role="tablist"
+                  aria-label="Slide indicators"
+                ></div>
+                <a
+                  href="https://unsplash.com/it/foto/donna-cammina-su-un-molo-verso-le-montagne-54i-1yJXjcQ"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="caption-link"
+                  id="caption-link"
+                >
+                  <span>View on Unsplash</span>
+                  <svg viewBox="0 0 24 24">
+                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                    <polyline points="7 7 17 7 17 17"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Contact</h2>
+          </div>
+          <div class="contact-card">
+            <p>
+              Feel free to reach out regarding research collaborations,
+              engineering roles, or opportunities:
+            </p>
+            <div class="email-box">
+              <span>✉️</span>
+              <a href="mailto:irvin.aloise@gmail.com">irvin.aloise@gmail.com</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <ul class="footer-links">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/irvin-aloise-428278133/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LinkedIn</a
+            >
           </li>
-          <li class="teaching-item">
-            <div class="teaching-role">
-              Teaching Assistant — <a href="https://sites.google.com/diag.uniroma1.it/sistemi-operativi-1819/" target="_blank" rel="noopener noreferrer">Sistemi Operativi (Operating Systems)</a>
-            </div>
-            <span class="teaching-year">2018 / 2019</span>
+          <li>
+            <a
+              href="https://github.com/istinj"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub</a
+            >
           </li>
-          <li class="teaching-item">
-            <div class="teaching-role">
-              Teaching Assistant — <a href="https://sites.google.com/dis.uniroma1.it/sistemi-operativi-201718/" target="_blank" rel="noopener noreferrer">Sistemi Operativi (Operating Systems)</a>
-            </div>
-            <span class="teaching-year">2017 / 2018</span>
+          <li>
+            <a
+              href="https://scholar.google.com/citations?user=uNL0JhkAAAAJ&hl=en&oi=ao"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Google Scholar</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://orcid.org/0000-0002-6382-4168"
+              target="_blank"
+              rel="noopener noreferrer"
+              >ORCID</a
+            >
           </li>
         </ul>
-      </div>
-    </section>
-
-    <!-- Photography Section -->
-    <section id="photography" class="section" tabindex="0" aria-label="Photography Portfolio Carousel">
-      <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">Photography</h2>
-          <a href="https://unsplash.com/it/@istin" target="_blank" rel="noopener noreferrer" class="social-btn" title="Explore Unsplash profile">
-            <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14.5v-9l6 4.5-6 4.5z" style="display:none;"></path><rect x="3" y="3" width="18" height="18" rx="2" ry="2" fill="none" stroke="currentColor" stroke-width="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21" fill="none" stroke="currentColor" stroke-width="2"></polyline></svg>
-            <span>Unsplash (@istin) ↗</span>
-          </a>
-        </div>
-        <p class="section-desc">
-          A selection of travel, alpine landscape, and street captures taken with a Fujifilm camera.
+        <p class="footer-copy">
+          &copy; Irvin Aloise · Designed for clarity and performance.
         </p>
-
-        <!-- Carousel -->
-        <div class="carousel-container" aria-roledescription="carousel">
-          <div class="carousel-viewport">
-            <div class="carousel-track" id="carousel-track">
-              <!-- Slide 1 -->
-              <div class="carousel-slide" data-title="Woman walks on a pier towards mountains" data-url="https://unsplash.com/it/foto/donna-cammina-su-un-molo-verso-le-montagne-54i-1yJXjcQ">
-                <img src="https://images.unsplash.com/photo-1767805447051-e94ffb10a8c5?auto=format&fit=crop&w=1200&q=80" alt="Woman walks on a pier towards mountains" />
-              </div>
-              <!-- Slide 2 -->
-              <div class="carousel-slide" data-title="Northern lights glowing above rolling hills" data-url="https://unsplash.com/it/foto/laurora-boreale-brilla-sopra-colline-sagomature-oz2QiBV-lKw">
-                <img src="https://images.unsplash.com/photo-1765132875789-8761ba66d3e6?auto=format&fit=crop&w=1200&q=80" alt="Northern lights glowing above rolling hills" loading="lazy" />
-              </div>
-              <!-- Slide 3 -->
-              <div class="carousel-slide" data-title="Golden sunset over calm ocean and coastline" data-url="https://unsplash.com/it/foto/tramonto-dorato-su-un-oceano-calmo-e-una-costa-Z_L9vbyHN2k">
-                <img src="https://images.unsplash.com/photo-1754671448143-8bd0bfb10bce?auto=format&fit=crop&w=1200&q=80" alt="Golden sunset over calm ocean and coastline" loading="lazy" />
-              </div>
-              <!-- Slide 4 -->
-              <div class="carousel-slide" data-title="Tent view of icy landscape with orange sleeping bag" data-url="https://unsplash.com/it/foto/vista-da-tenda-di-un-paesaggio-ghiacciato-con-sacco-a-pelo-arancione-aBqgfcyn06Y">
-                <img src="https://images.unsplash.com/photo-1765132875547-9a126aa6e7c6?auto=format&fit=crop&w=1200&q=80" alt="Tent view of icy landscape with orange sleeping bag" loading="lazy" />
-              </div>
-              <!-- Slide 5 -->
-              <div class="carousel-slide" data-title="Cows grazing on alpine grassy slope" data-url="https://unsplash.com/it/foto/mucche-che-pascolano-sul-pendio-erboso-alpino-9iZjiUhXdq0">
-                <img src="https://images.unsplash.com/photo-1786979837390-d49e274d1356?auto=format&fit=crop&w=1200&q=80" alt="Cows grazing on alpine grassy slope" loading="lazy" />
-              </div>
-              <!-- Slide 6 -->
-              <div class="carousel-slide" data-title="Smiling mural of blue and purple clouds" data-url="https://unsplash.com/it/foto/murale-sorridente-di-nuvole-blu-e-viola-jsDMZHDEcuA">
-                <img src="https://images.unsplash.com/photo-1786311577319-aa1ea940729d?auto=format&fit=crop&w=1200&q=80" alt="Smiling mural of blue and purple clouds" loading="lazy" />
-              </div>
-              <!-- Slide 7 -->
-              <div class="carousel-slide" data-title="Stone bridge winding to rocky island (Gaztelugatxe)" data-url="https://unsplash.com/it/foto/ponte-di-pietra-su-rocky-island-aoVTkvwT-bo">
-                <img src="https://images.unsplash.com/photo-1786311577583-bf448dbe75f3?auto=format&fit=crop&w=1200&q=80" alt="Stone bridge winding to rocky island (Gaztelugatxe)" loading="lazy" />
-              </div>
-              <!-- Slide 8 -->
-              <div class="carousel-slide" data-title="Motocross rider performing aerial trick" data-url="https://unsplash.com/it/foto/un-pilota-di-motocross-compie-una-brava-acrobazia-in-aria-XtZ-Im9Bl4w">
-                <img src="https://images.unsplash.com/photo-1785772533208-94448e03fada?auto=format&fit=crop&w=1200&q=80" alt="Motocross rider performing aerial trick" loading="lazy" />
-              </div>
-              <!-- Slide 9 -->
-              <div class="carousel-slide" data-title="Cyclist with backpack in motion blur" data-url="https://unsplash.com/it/foto/persona-in-bicicletta-con-zaino-sfocato-di-movimento-65Gpxb5h2UI">
-                <img src="https://images.unsplash.com/photo-1785771909145-ae71bf5be101?auto=format&fit=crop&w=1200&q=80" alt="Cyclist with backpack in motion blur" loading="lazy" />
-              </div>
-              <!-- Slide 10 -->
-              <div class="carousel-slide" data-title="Woman running past weathered building wall" data-url="https://unsplash.com/it/foto/donna-che-corre-davanti-a-un-muro-di-edificio-consumato-dal-tempo-h0FLp829hpI">
-                <img src="https://images.unsplash.com/photo-1778326490254-751fe9ea1b9c?auto=format&fit=crop&w=1200&q=80" alt="Woman running past weathered building wall" loading="lazy" />
-              </div>
-              <!-- Slide 11 -->
-              <div class="carousel-slide" data-title="Colorful prayer flags with snowy mountain backdrop" data-url="https://unsplash.com/it/foto/bandiere-di-preghiera-colorate-con-sfondo-montuoso-innevato-ENpd27i0yRI">
-                <img src="https://images.unsplash.com/photo-1776620544269-ae4070a7ca38?auto=format&fit=crop&w=1200&q=80" alt="Colorful prayer flags with snowy mountain backdrop" loading="lazy" />
-              </div>
-              <!-- Slide 12 -->
-              <div class="carousel-slide" data-title="Chairlift moving up snowy forested slope" data-url="https://unsplash.com/it/foto/seggiovia-che-si-muove-su-un-pendio-innevato-con-alberi-6G4X1GKDYRo">
-                <img src="https://images.unsplash.com/photo-1773618769230-90b467b439fc?auto=format&fit=crop&w=1200&q=80" alt="Chairlift moving up snowy forested slope" loading="lazy" />
-              </div>
-              <!-- Slide 13 -->
-              <div class="carousel-slide" data-title="Mountain range covered in snow and ice" data-url="https://unsplash.com/it/foto/una-catena-montuosa-ricoperta-di-neve-e-ghiaccio-RsUOUOJq7Cc">
-                <img src="https://images.unsplash.com/photo-1725909074048-0c7247fea73c?auto=format&fit=crop&w=1200&q=80" alt="Mountain range covered in snow and ice" loading="lazy" />
-              </div>
-              <!-- Slide 14 -->
-              <div class="carousel-slide" data-title="Night sky filled with stars above building" data-url="https://unsplash.com/it/foto/il-cielo-notturno-e-pieno-di-stelle-e-di-un-edificio-GX1RRrftzvs">
-                <img src="https://images.unsplash.com/photo-1722534644204-aab8576a4d04?auto=format&fit=crop&w=1200&q=80" alt="Night sky filled with stars above building" loading="lazy" />
-              </div>
-              <!-- Slide 15 -->
-              <div class="carousel-slide" data-title="Wall of ceramic cups with Asian calligraphy" data-url="https://unsplash.com/it/foto/un-muro-pieno-di-tazze-con-scritte-asiatiche-su-di-esse-rQ3qXzQ21hA">
-                <img src="https://images.unsplash.com/photo-1722534644215-272556f6f5c8?auto=format&fit=crop&w=1200&q=80" alt="Wall of ceramic cups with Asian calligraphy" loading="lazy" />
-              </div>
-            </div>
-
-            <!-- Navigation Chevrons -->
-            <button class="carousel-arrow prev" id="carousel-prev" aria-label="Previous photo">
-              <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"></polyline></svg>
-            </button>
-            <button class="carousel-arrow next" id="carousel-next" aria-label="Next photo">
-              <svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"></polyline></svg>
-            </button>
-          </div>
-
-          <!-- Carousel Footer Bar -->
-          <div class="carousel-footer">
-            <div class="carousel-meta-row">
-              <span class="caption-title" id="caption-title">Woman walks on a pier towards mountains</span>
-              <span class="caption-counter" id="carousel-counter">1 / 15</span>
-            </div>
-            <div class="carousel-actions-row">
-              <div class="carousel-dots" id="carousel-dots" role="tablist" aria-label="Slide indicators"></div>
-              <a href="https://unsplash.com/it/foto/donna-cammina-su-un-molo-verso-le-montagne-54i-1yJXjcQ" target="_blank" rel="noopener noreferrer" class="caption-link" id="caption-link">
-                <span>View on Unsplash</span>
-                <svg viewBox="0 0 24 24"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
-              </a>
-            </div>
-          </div>
-        </div>
       </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="section">
-      <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">Contact</h2>
-        </div>
-        <div class="contact-card">
-          <p>Feel free to reach out regarding research collaborations, engineering roles, or opportunities:</p>
-          <div class="email-box">
-            <span>✉️</span>
-            <a href="mailto:ialoise@diag.uniroma1.it">ialoise@diag.uniroma1.it</a>
-          </div>
-          <p>
-            Department of Computer, Control, and Management Engineering (DIAG) "Antonio Ruberti"<br />
-            Sapienza University of Rome — Via Ariosto 25, 00185 Rome, Italy
-          </p>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <!-- Footer -->
-  <footer class="site-footer">
-    <div class="container footer-content">
-      <ul class="footer-links">
-        <li><a href="https://www.linkedin.com/in/irvin-aloise-428278133/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-        <li><a href="https://github.com/istinj" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-        <li><a href="https://scholar.google.com/citations?user=uNL0JhkAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener noreferrer">Google Scholar</a></li>
-        <li><a href="https://orcid.org/0000-0002-6382-4168" target="_blank" rel="noopener noreferrer">ORCID</a></li>
-      </ul>
-      <p class="footer-copy">&copy; Irvin Aloise · Designed for clarity and performance.</p>
-    </div>
-  </footer>
-
-</body>
+    </footer>
+  </body>
 </html>

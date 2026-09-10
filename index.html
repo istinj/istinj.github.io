@@ -1,230 +1,383 @@
-<!DOCTYPE HTML>
-<!--
-	  Strata by HTML5 UP
-	  html5up.net | @ajlkn
-	  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-  -->
-<html>
-	<head>
-		<link rel="icon" href="images/dark_side.png"/>
-		<title>Irvin Aloise</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body id="top">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Irvin Aloise | Robotics & Computer Science</title>
+  <meta name="description" content="Personal website and portfolio of Irvin Aloise - Ph.D. Researcher in Engineering in Computer Science focusing on Mobile Robotics, SLAM, and Graph Optimization." />
+  <link rel="icon" href="images/dark_side.png" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script src="assets/js/theme.js"></script>
+</head>
+<body>
 
-		<!-- Header -->
-		<header id="header">
-			<div class="inner">
-				<a href="#" class="image avatar"><img src="images/me_squared.jpg" alt="That's me :)" /></a>
-				<h1>
-          Hi! <strong>I am Irvin.</strong>
-          I am a Ph.D. candidate in Engineering in Computer Science at Sapienza University of Rome.</br>
-          I like tech and &#x1F916;.
-        </h1>
-			</div>
-		</header>
+  <!-- Top Sticky Navigation -->
+  <nav class="site-nav" aria-label="Main Navigation">
+    <div class="container">
+      <a href="#top" class="nav-brand">Irvin Aloise</a>
+      <div class="nav-menu">
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#research" class="nav-link">Research</a>
+        <a href="#teaching" class="nav-link">Teaching</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle theme" title="Toggle dark/light theme">
+          <!-- Moon Icon (displayed in light mode) -->
+          <svg class="icon-moon" viewBox="0 0 24 24">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <!-- Sun Icon (displayed in dark mode) -->
+          <svg class="icon-sun" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </nav>
 
-		<!-- Main -->
-		<div id="main">
+  <div id="top"></div>
 
-			<!-- Education -->
-			<section id="Education">
-				<h1>Education</h1>
-        <div class="row">
-          <!-- ia Phd Student -->
-          <article class="work-item">
-            <h2>Nov. 2017 | Oct. 2020 (expected)</h2>
-            <p>
-              Ph.D. Student in Engineering in Computer Science at Sapienza University of Rome -
-              Department of Computer, Control, and Mangagement Engineering "Antonio Ruberti".
-              I am a member of the <a href="http://labrococo.dis.uniroma1.it/" target="_blank">Ro.Co.Co. Lab.</a>
-              and my supervisor is Prof.
-              <a href="https://sites.google.com/dis.uniroma1.it/grisetti" target="_blank">Giorgio Grisetti</a>.
-              My main research topics are
-              <em>
-                Mobile Robotics,
-                Simultaneous Localization and Mapping (SLAM)
-                and Graph Optimization
-              </em>.
-            </p>
-          </article>
-          <!-- ia Visiting Ph.D. Student -->
-          <article class="work-item">
-            <h2>Sep. 2019 | Feb. 2020</h2>
-            <p>
-              Visiting Ph.D. Student at Rheinische Friedrich-Wilhelms-Universit&auml;t Bonn -
-              <a href="http://www.ipb.uni-bonn.de/" target="_blank">Photogrammetry and Robotics Lab</a>.
-              Focus on 3D-Lidar SLAM, 3D-Lidar and camera extrinsic calibration
-              [<a href="https://github.com/srrg-sapienza/srrg2_apriltag_calibration" target="_blank">code</a>].
-            </p>
-          </article>
-          <!-- ia MSc -->
-          <article class="work-item">
-            <h2>Sep. 2014 | Nov. 2017</h2>
-            <p>
-              M.Sc. in Artificial Intelligence and Robotics at Sapienza University of Rome (First Class with Honors, courses held in English).
-              My thesis was focused on Pose-Graph Optimization [<a href="media/thesis_colors_no_ringraziamenti.pdf" target="_blank">pdf</a>]
-              and supervised by Prof. <a href="https://sites.google.com/dis.uniroma1.it/grisetti" target="_blank">Giorgio Grisetti</a>.<br/>
-              Core courses that I attended to:
-              Least-Squares SLAM (3 ECTS), Vision and Perception (6 ECTS), Artificial Intelligence (12 ECTS), Mobile Robotics (6 ECTS), Robotics (12 ECTS), Interactive Graphics (6 ECTS).
-            </p>
-          </article>
-          <article class="work-item">
-            <h2>Sep. 2010 | Sep. 2014</h2>
-            <p>
-              B.Sc. in Electronic Engineering at Sapienza University of Rome (courses held in Italian).
-              My thesis addressed the stability of humanoids subject to external forces and it was supervised by
-              Prof. <a href="http://www.dis.uniroma1.it/~oriolo/" target="_blank">Giuseppe Oriolo</a>.
-            </p>
-          </article>
+  <!-- Hero Section -->
+  <header class="hero-section">
+    <div class="container">
+      <div class="hero-profile">
+        <div class="avatar-wrapper">
+          <img src="images/me_squared.jpg" alt="Irvin Aloise" class="avatar-img" />
         </div>
-				<p>
-					To get a more complete overview, my resume is available [<a href="media/cv_aloise.pdf" target="_blank">here</a>] - 
-          last update is June 2020.
-				</p>
-			</section>
-
-      <!-- Research -->
-      <section id="Research">
-				<h1>Research</h1>
-        <p>
-          My research concerns the problem of Simultaneous Localization and Mapping.
-          I am investigating different aspects of this topic, focusing on
-          <strong>Global Optimization</strong> and <strong>Pose-Graph Optimization</strong>, Point-Cloud Registration and <strong>Sensor Calibration</strong>.
-          My main publications are listed below.
-        </p>
-        <!-- ia publications -->
-        <div class="row">
-          <div class="12u$ 12u$(small)">
-            <ul class="alt">
-              <li>
-                <em>Plug-and-Play SLAM: A Unified SLAM Architecture for Modularity and Ease of Use </em>,
-                M. Colosi, <strong>I. Aloise</strong>, T. Guadagnino, D. Schlegel, B. Della Corte and G. Grisetti .
-                IEEE IROS, <u>2020</u> (to appear in conference proceedings).
-                <!-- [<a href="https://doi.org/10.3390/robotics9030051" target="_blank">DOI</a>] -->
-                [<a href="https://github.com/srrg-sapienza/srrg2_slam_interfaces" target="_blank">code</a>]
-                [<a href="https://arxiv.org/pdf/2003.00754.pdf" target="_blank">pdf</a>]
-              </li>
-              <li>
-                <em>Least Squares Optimization: From Theory to Practice </em>,
-                G. Grisetti, T. Guadagnino, <strong>I. Aloise</strong>, M. Colosi, B. Della Corte and D. Schlegel.
-                MDPI: Robotics, <u>2020</u>.
-                [<a href="https://doi.org/10.3390/robotics9030051" target="_blank">DOI</a>]
-                [<a href="https://github.com/srrg-sapienza/srrg2_solver" target="_blank">code</a>]
-                [<a href="https://www.mdpi.com/2218-6581/9/3/51" target="_blank">pdf</a>]
-              </li>
-              <li>
-                <em>Chordal Based Error Function for 3D Pose-Graph Optimization</em>,
-                <strong>I. Aloise</strong> and G. Grisetti.
-                IEEE Robotics and Automation Letters (RAL), <u>2019</u>.
-                [<a href="https://doi.org/10.1109/LRA.2019.2956456" target="_blank">DOI</a>]
-                [<a href="https://srrg.gitlab.io/g2o_chordal_plugin.html" target="_blank">code</a>]
-                [<a href="media/2019_paper_aloise_journal_chordal.pdf" target="_blank">pdf</a>]
-                [<a href="media/2019_paper_aloise_journal_chordal_supplementary_material.pdf" target="_blank">supplementary</a>]
-              </li>
-              <li>
-                <em>Systematic Handling of Heterogeneous Geometric Primitives in Graph-SLAM Optimization</em>,
-                <strong>I. Aloise</strong>, B. Della Corte, F. Nardi and G. Grisetti.
-                IEEE Robotics and Automation Letters (RAL), <u>2019</u>.
-                [<a href="https://doi.org/10.1109/LRA.2019.2918054" target="_blank">DOI</a>]
-                [<a href="https://srrg.gitlab.io/sashago.html" target="_blank">code</a>]
-                [<a href="http://www.roboticsproceedings.org/rss15/p84.pdf" target="_blank">pdf</a>]
-                [<a href="media/2019_paper_aloise_ral_matchables_supplementary_material.pdf" target="_blank">supplementary</a>]
-              </li>
-              <!-- <li> -->
-              <!--   <em>Matrix Difference in Pose-Graph Optimization</em>, -->
-              <!--   <strong>I. Aloise</strong> and G. Grisetti. -->
-              <!--   ArXiv preprint, <u>2018</u>. -->
-              <!--   [<a href="https://arxiv.org/abs/1809.00952" target="_blank">link</a>] -->
-              <!-- </li> -->
-            </ul>
+        <div class="hero-content">
+          <h1>Irvin Aloise</h1>
+          <div class="subtitle">Ph.D. in Engineering in Computer Science · Robotics & SLAM</div>
+          <p class="bio">
+            Ph.D. candidate in Engineering in Computer Science at Sapienza University of Rome.
+            My work focuses on <strong>Mobile Robotics</strong>, <strong>Simultaneous Localization and Mapping (SLAM)</strong>,
+            <strong>Point-Cloud Registration</strong>, and <strong>Graph Optimization</strong>. I like tech and 🤖.
+          </p>
+          <div class="social-links">
+            <a href="media/cv_aloise.pdf" target="_blank" class="social-btn primary" title="Download CV">
+              <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+              <span>Resume / CV</span>
+            </a>
+            <a href="https://www.linkedin.com/in/irvin-aloise-428278133/" target="_blank" rel="noopener noreferrer" class="social-btn">
+              <svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+              <span>LinkedIn</span>
+            </a>
+            <a href="https://github.com/istinj" target="_blank" rel="noopener noreferrer" class="social-btn">
+              <svg viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"></path></svg>
+              <span>GitHub</span>
+            </a>
+            <a href="https://scholar.google.com/citations?user=uNL0JhkAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener noreferrer" class="social-btn">
+              <svg viewBox="0 0 24 24"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5 12 0z"></path></svg>
+              <span>Scholar</span>
+            </a>
+            <a href="https://orcid.org/0000-0002-6382-4168" target="_blank" rel="noopener noreferrer" class="social-btn">
+              <svg viewBox="0 0 24 24"><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.525 0 .947.431.947.947s-.422.947-.947.947a.95.95 0 0 1-.947-.947c0-.525.422-.947.947-.947zm-.722 3.038h1.444v10.041H6.647V7.416zm3.562 0h3.9c3.712 0 5.344 2.653 5.344 5.025 0 2.578-2.016 5.016-5.325 5.016h-3.919V7.416zm1.444 1.306v7.428h2.338c2.166 0 3.712-1.306 3.712-3.713 0-2.231-1.509-3.715-3.694-3.715h-2.356z"></path></svg>
+              <span>ORCID</span>
+            </a>
           </div>
         </div>
-        <div itemscope itemtype="https://schema.org/Person">
-          If you want to get more insights on my research, check-out the following pages.</br>
-          ORCID [  
-          <a itemprop="sameAs" content="https://orcid.org/0000-0002-6382-4168" href="https://orcid.org/0000-0002-6382-4168" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;">
-            <img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">https://orcid.org/0000-0002-6382-4168
-          </a>
-          ] | Google Scholar [<a href="https://scholar.google.com/citations?user=uNL0JhkAAAAJ&hl=en&oi=ao" taget="_blank">link</a>] |
-          ResearchGate [<a href="https://www.researchgate.net/profile/Irvin_Aloise" target="_blank">link</a>]
-        </div>
-      </section>
+      </div>
+    </div>
+  </header>
 
-			<!-- Teaching -->
-			<section id="Teaching">
-				<h1>Teaching</h1>
-				<div class="row">
-          <div class="12u$ 12u$(small)">
-            <ul class="alt">
-              <li>
-                Teaching Assistant of "Sistemi Operativi" [Operating Systems] - 2019/20
-                [<a href="https://sites.google.com/diag.uniroma1.it/sistemi-operativi-2019-20/home" target="_blank">link</a>]
-              </li>
-              <li>
-                Teaching Assistant of "Sistemi Operativi" [Operating Systems] - 2018/19
-                [<a href="https://sites.google.com/diag.uniroma1.it/sistemi-operativi-1819/" target="_blank">link</a>]
-              </li>
-              <li>
-                Teaching Assistant of "Sistemi Operativi" [Operating Systems] - 2017/18
-                [<a href="https://sites.google.com/dis.uniroma1.it/sistemi-operativi-201718/" target="_blank">link</a>]
-              </li>
-            </ul>
-					</div>
+  <main>
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Work Experience</h2>
         </div>
-			</section>
+        <div class="timeline">
 
-			<!-- Contacts -->
-			<section id="Contacts">
-				<h1>Contact Me</h1>
-				<div class="7u$ 12u$(small)">
-					<ul class="labeled-icons">
-						<li>
-							<h3 class="icon fa-envelope-o"><span class="label">Email</span></h3>
-							<a href="mailto:ialoise@diag.uniroma1.it">ialoise [at] diag [dot] uniroma1 [dot] it</a>
-						</li>
-					</ul>
-				</div>
-				<p>
-          Department of Computer, Control, and Management Engineering (DIAG) “Antonio Ruberti”<br/>
-          Via Ariosto 25, 00185, Roma (RM) - Room <u>B121</u>
+          <!-- Experience Item: Sapienza Ph.D. -->
+          <article class="card">
+            <div class="card-header">
+              <div class="card-title-group">
+                <h3>Ph.D. Researcher in Computer Science</h3>
+                <div class="card-subtitle">
+                  <a href="http://labrococo.dis.uniroma1.it/" target="_blank" rel="noopener noreferrer">Sapienza University of Rome — Ro.Co.Co. Lab</a>
+                </div>
+              </div>
+              <span class="card-date">Nov. 2017 – Oct. 2020</span>
+            </div>
+            <div class="card-body">
+              <p>
+                Conducted doctoral research within the Department of Computer, Control, and Management Engineering "Antonio Ruberti" (DIAG), under the supervision of
+                <a href="https://sites.google.com/dis.uniroma1.it/grisetti" target="_blank" rel="noopener noreferrer">Prof. Giorgio Grisetti</a>.
+              </p>
+              <ul class="card-bullets">
+                <li>Investigated advanced methodologies in Simultaneous Localization and Mapping (SLAM) and Graph Optimization.</li>
+                <li>Designed unified modular architectures for modular and plug-and-play SLAM solvers in C++.</li>
+                <li>Developed robust chordal-based error formulations and geometric primitive matchables for 3D Pose-Graph Optimization.</li>
+              </ul>
+              <div class="tag-list">
+                <span class="tag">C++</span>
+                <span class="tag">Mobile Robotics</span>
+                <span class="tag">SLAM</span>
+                <span class="tag">Graph Optimization</span>
+                <span class="tag">Linear Algebra</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Experience Item: Visiting Researcher Bonn -->
+          <article class="card">
+            <div class="card-header">
+              <div class="card-title-group">
+                <h3>Visiting Ph.D. Researcher</h3>
+                <div class="card-subtitle">
+                  <a href="http://www.ipb.uni-bonn.de/" target="_blank" rel="noopener noreferrer">University of Bonn — Photogrammetry and Robotics Lab</a>
+                </div>
+              </div>
+              <span class="card-date">Sep. 2019 – Feb. 2020</span>
+            </div>
+            <div class="card-body">
+              <p>
+                Conducted collaborative research with the Photogrammetry &amp; Robotics Lab at Rheinische Friedrich-Wilhelms-Universität Bonn, Germany.
+              </p>
+              <ul class="card-bullets">
+                <li>Researched 3D-LiDAR SLAM and high-precision sensor calibration techniques.</li>
+                <li>Implemented calibration algorithms for 3D-LiDAR and camera extrinsic parameter estimation.</li>
+                <li>Released open-source tooling for AprilTag-based multi-sensor calibration [<a href="https://github.com/srrg-sapienza/srrg2_apriltag_calibration" target="_blank" rel="noopener noreferrer">code repository</a>].</li>
+              </ul>
+              <div class="tag-list">
+                <span class="tag">3D LiDAR</span>
+                <span class="tag">Camera Calibration</span>
+                <span class="tag">Sensor Fusion</span>
+                <span class="tag">Computer Vision</span>
+                <span class="tag">C++</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- TEMPLATE FOR ADDING NEW EXPERIENCES:
+          <article class="card">
+            <div class="card-header">
+              <div class="card-title-group">
+                <h3>Job Title</h3>
+                <div class="card-subtitle">Company Name · Location</div>
+              </div>
+              <span class="card-date">Start Date – End Date</span>
+            </div>
+            <div class="card-body">
+              <p>Brief summary of role and responsibilities.</p>
+              <ul class="card-bullets">
+                <li>Achievement or key contribution #1.</li>
+                <li>Achievement or key contribution #2.</li>
+              </ul>
+              <div class="tag-list">
+                <span class="tag">Skill 1</span>
+                <span class="tag">Skill 2</span>
+              </div>
+            </div>
+          </article>
+          -->
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Education</h2>
+        </div>
+        <div class="timeline">
+
+          <article class="card">
+            <div class="card-header">
+              <div class="card-title-group">
+                <h3>Ph.D. in Engineering in Computer Science</h3>
+                <div class="card-subtitle">Sapienza University of Rome</div>
+              </div>
+              <span class="card-date">2017 – 2020</span>
+            </div>
+            <div class="card-body">
+              <p>
+                Department of Computer, Control, and Management Engineering "Antonio Ruberti".
+                Supervisor: Prof. Giorgio Grisetti. Research focus on mobile robotics, SLAM, point-cloud registration, and graph optimization.
+              </p>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-header">
+              <div class="card-title-group">
+                <h3>M.Sc. in Artificial Intelligence and Robotics</h3>
+                <div class="card-subtitle">Sapienza University of Rome</div>
+              </div>
+              <span class="card-date">2014 – 2017</span>
+            </div>
+            <div class="card-body">
+              <p>
+                <strong>First Class with Honors (110/110 cum laude)</strong>. Program taught in English.
+                Master's thesis: <em>Pose-Graph Optimization</em> [<a href="media/thesis_colors_no_ringraziamenti.pdf" target="_blank">PDF</a>], supervised by Prof. Giorgio Grisetti.
+              </p>
+              <p>
+                Core coursework: Least-Squares SLAM, Vision and Perception, Artificial Intelligence, Mobile Robotics, Robotics, Interactive Graphics.
+              </p>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-header">
+              <div class="card-title-group">
+                <h3>B.Sc. in Electronic Engineering</h3>
+                <div class="card-subtitle">Sapienza University of Rome</div>
+              </div>
+              <span class="card-date">2010 – 2014</span>
+            </div>
+            <div class="card-body">
+              <p>
+                Undergraduate thesis addressed the stability of humanoid robots subject to external forces, supervised by Prof.
+                <a href="http://www.dis.uniroma1.it/~oriolo/" target="_blank" rel="noopener noreferrer">Giuseppe Oriolo</a>.
+              </p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Research & Publications Section -->
+    <section id="research" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Research &amp; Publications</h2>
+        </div>
+        <p class="section-desc">
+          My research investigates Simultaneous Localization and Mapping, specifically focusing on
+          <strong>Global Optimization</strong>, <strong>Pose-Graph Optimization</strong>, <strong>Point-Cloud Registration</strong>,
+          and <strong>Sensor Calibration</strong>.
         </p>
-        <div class="map-responsive">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.086346361058!2d12.501427651221823!3d41.89100007911918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f61be821cd70d%3A0xfff541295115feea!2sDIAG%20Sapienza!5e0!3m2!1sit!2sde!4v1575201300213!5m2!1sit!2sde" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+        <div class="publication-list">
+
+          <!-- Paper 1 -->
+          <article class="publication-item">
+            <h3 class="pub-title">Plug-and-Play SLAM: A Unified SLAM Architecture for Modularity and Ease of Use</h3>
+            <div class="pub-authors">M. Colosi, <strong>I. Aloise</strong>, T. Guadagnino, D. Schlegel, B. Della Corte, and G. Grisetti</div>
+            <div class="pub-venue">IEEE International Conference on Intelligent Robots and Systems (IROS), 2020</div>
+            <div class="pub-actions">
+              <a href="https://arxiv.org/pdf/2003.00754.pdf" target="_blank" rel="noopener noreferrer" class="action-pill">PDF</a>
+              <a href="https://github.com/srrg-sapienza/srrg2_slam_interfaces" target="_blank" rel="noopener noreferrer" class="action-pill">Code</a>
+            </div>
+          </article>
+
+          <!-- Paper 2 -->
+          <article class="publication-item">
+            <h3 class="pub-title">Least Squares Optimization: From Theory to Practice</h3>
+            <div class="pub-authors">G. Grisetti, T. Guadagnino, <strong>I. Aloise</strong>, M. Colosi, B. Della Corte, and D. Schlegel</div>
+            <div class="pub-venue">MDPI: Robotics, 2020</div>
+            <div class="pub-actions">
+              <a href="https://www.mdpi.com/2218-6581/9/3/51" target="_blank" rel="noopener noreferrer" class="action-pill">PDF</a>
+              <a href="https://github.com/srrg-sapienza/srrg2_solver" target="_blank" rel="noopener noreferrer" class="action-pill">Code</a>
+              <a href="https://doi.org/10.3390/robotics9030051" target="_blank" rel="noopener noreferrer" class="action-pill">DOI</a>
+            </div>
+          </article>
+
+          <!-- Paper 3 -->
+          <article class="publication-item">
+            <h3 class="pub-title">Chordal Based Error Function for 3D Pose-Graph Optimization</h3>
+            <div class="pub-authors"><strong>I. Aloise</strong> and G. Grisetti</div>
+            <div class="pub-venue">IEEE Robotics and Automation Letters (RA-L), 2019</div>
+            <div class="pub-actions">
+              <a href="media/2019_paper_aloise_journal_chordal.pdf" target="_blank" class="action-pill">PDF</a>
+              <a href="https://srrg.gitlab.io/g2o_chordal_plugin.html" target="_blank" rel="noopener noreferrer" class="action-pill">Code</a>
+              <a href="https://doi.org/10.1109/LRA.2019.2956456" target="_blank" rel="noopener noreferrer" class="action-pill">DOI</a>
+              <a href="media/2019_paper_aloise_journal_chordal_supplementary_material.pdf" target="_blank" class="action-pill">Supplementary</a>
+            </div>
+          </article>
+
+          <!-- Paper 4 -->
+          <article class="publication-item">
+            <h3 class="pub-title">Systematic Handling of Heterogeneous Geometric Primitives in Graph-SLAM Optimization</h3>
+            <div class="pub-authors"><strong>I. Aloise</strong>, B. Della Corte, F. Nardi, and G. Grisetti</div>
+            <div class="pub-venue">IEEE Robotics and Automation Letters (RA-L), 2019</div>
+            <div class="pub-actions">
+              <a href="http://www.roboticsproceedings.org/rss15/p84.pdf" target="_blank" rel="noopener noreferrer" class="action-pill">PDF</a>
+              <a href="https://srrg.gitlab.io/sashago.html" target="_blank" rel="noopener noreferrer" class="action-pill">Code</a>
+              <a href="https://doi.org/10.1109/LRA.2019.2918054" target="_blank" rel="noopener noreferrer" class="action-pill">DOI</a>
+              <a href="media/2019_paper_aloise_ral_matchables_supplementary_material.pdf" target="_blank" class="action-pill">Supplementary</a>
+            </div>
+          </article>
+
         </div>
-				<!-- <div class="4u$ 12u$(small)"> -->
-				<!-- 	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d742.5267873364147!2d12.503641380331107!3d41.89055266930484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f61be823fdb15%3A0x2c23b41091df0337!2sUniversita&#39;+La+Sapienza+di+Roma+-+Dipartimento+di+Ingegneria+informatica%2C+automatica+e+gestionale!5e0!3m2!1sit!2sit!4v1511605029554" class="maxHeightSet" frameborder="0" style="border:0" allowfullscreen></iframe> -->
-				<!-- </div> -->
-			</section>
-		</div>
-    <!-- ia end main page -->
+      </div>
+    </section>
 
-		<!-- Footer -->
-		<footer id="footer">
-			<div class="inner">
-				<ul class="icons">
-          <li><a href="https://gitlab.com/istinj" target="_blank" class="icon fa-gitlab"><span class="label">Gitlab</span></a></li>
-					<li><a href="https://github.com/istinj" target="_blank" class="icon fa-github"><span class="label">Github</span></a></li>
-          <li><a href="https://www.linkedin.com/in/irvin-aloise-428278133/" target="_blank" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-					<li><a href="https://www.facebook.com/irvin.aloise" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-					<li><a href="https://www.instagram.com/istins/" target="_blank" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-					<li><a href="https://twitter.com/Istinino" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-				</ul>
-				<ul class="copyright">
-					<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-				</ul>
-			</div>
-		</footer>
+    <!-- Teaching Section -->
+    <section id="teaching" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Teaching</h2>
+        </div>
+        <ul class="teaching-list">
+          <li class="teaching-item">
+            <div class="teaching-role">
+              Teaching Assistant — <a href="https://sites.google.com/diag.uniroma1.it/sistemi-operativi-2019-20/home" target="_blank" rel="noopener noreferrer">Sistemi Operativi (Operating Systems)</a>
+            </div>
+            <span class="teaching-year">2019 / 2020</span>
+          </li>
+          <li class="teaching-item">
+            <div class="teaching-role">
+              Teaching Assistant — <a href="https://sites.google.com/diag.uniroma1.it/sistemi-operativi-1819/" target="_blank" rel="noopener noreferrer">Sistemi Operativi (Operating Systems)</a>
+            </div>
+            <span class="teaching-year">2018 / 2019</span>
+          </li>
+          <li class="teaching-item">
+            <div class="teaching-role">
+              Teaching Assistant — <a href="https://sites.google.com/dis.uniroma1.it/sistemi-operativi-201718/" target="_blank" rel="noopener noreferrer">Sistemi Operativi (Operating Systems)</a>
+            </div>
+            <span class="teaching-year">2017 / 2018</span>
+          </li>
+        </ul>
+      </div>
+    </section>
 
-		<!-- Scripts -->
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/jquery.poptrox.min.js"></script>
-		<script src="assets/js/skel.min.js"></script>
-		<script src="assets/js/util.js"></script>
-		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-		<script src="assets/js/main.js"></script>
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Contact</h2>
+        </div>
+        <div class="contact-card">
+          <p>Feel free to reach out regarding research collaborations, engineering roles, or opportunities:</p>
+          <div class="email-box">
+            <span>✉️</span>
+            <a href="mailto:ialoise@diag.uniroma1.it">ialoise@diag.uniroma1.it</a>
+          </div>
+          <p>
+            Department of Computer, Control, and Management Engineering (DIAG) "Antonio Ruberti"<br />
+            Sapienza University of Rome — Via Ariosto 25, 00185 Rome, Italy
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
 
-	</body>
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <ul class="footer-links">
+        <li><a href="https://www.linkedin.com/in/irvin-aloise-428278133/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        <li><a href="https://github.com/istinj" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="https://scholar.google.com/citations?user=uNL0JhkAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener noreferrer">Google Scholar</a></li>
+        <li><a href="https://orcid.org/0000-0002-6382-4168" target="_blank" rel="noopener noreferrer">ORCID</a></li>
+      </ul>
+      <p class="footer-copy">&copy; Irvin Aloise · Designed for clarity and performance.</p>
+    </div>
+  </footer>
+
+</body>
 </html>
